@@ -1,1 +1,0 @@
-var zhiling=angular.module('diractives',[])
