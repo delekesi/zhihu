@@ -1,0 +1,95 @@
+body,html,li,ol,li,h1,h2,h3,h4,h5,h6,p,div,figure{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	
+}
+.head{
+	width: 100%;
+	height: auto;
+}
+.box{
+	width: 960px;
+	height: 90px;
+	margin: 0 auto;
+}
+.logo{
+	width: 145px;
+	height: 50px;
+	background: url(../img/1.png)no-repeat;
+	float: left;
+}
+nav{
+	width: 815px;
+	height:90px;
+	float: right;
+}
+nav .shouye{
+	width: 40px;
+	text-align: center;
+	float: left;
+}
+nav .shouye a{
+	line-height: 90px;
+	text-decoration: none;
+	color: #333;
+	font-size: 16px;
+}
+nav .chongfu{
+	width: 775px;
+	height: 90px;
+	float: left;
+}
+nav .chongfu a{
+	line-height:45px;
+	text-decoration: none;
+	color: #333;
+		font-size: 16px;
+		margin: 0 10px;
+}
+.view{
+	width: 960px;
+	height: auto;
+		margin: 0 auto;
+		overflow: hidden;
+}
+.cont-list{
+	width: 960px;
+	height: auto;
+
+}
+.one{
+	width: 298px;
+	height: 360px;
+		float: left;
+		margin: 10px 10px;
+}
+figure:hover{
+	
+	box-shadow: 0 0 10px #000;
+}
+.one a{
+	width: 300px;
+	height: auto;
+	text-decoration: none;
+	color: #333;
+}
+.one a .tt{
+	-webkit-background-size: cover!important;
+	background-size: cover!important;
+	width: 300px;
+	height: 300px;
+
+}
+.foot{
+	width: 100%;
+	height: 40px;
+	background: #ccc;
+}
+.foot div{
+	width: 100px;
+	height: 40px;
+	margin: 0 auto;
+	line-height: 40px;
+}
+
